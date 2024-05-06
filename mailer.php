@@ -17,7 +17,7 @@ $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 $mail->Username = "dtnl0819@gmail.com";
-$mail->Password = "Naile6389";
+$mail->Password = "rdgc gbaw lhlz bfzz";
 
 $mail->isHtml(true);
 
