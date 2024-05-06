@@ -31,7 +31,7 @@ if ($mysqli->affected_rows) {
     $mail->Body = <<<END
 
    
-    Click <a href="reset-password.php?token=$token">here</a> 
+    Click <a href="reset-password.php">here</a> 
     to reset your password.
 
     
