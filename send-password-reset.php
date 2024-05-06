@@ -25,7 +25,7 @@ if ($mysqli->affected_rows) {
 
     $mail = require __DIR__ . "/mailer.php";
 
-    $mail->setFrom('dtnl0819@gmail.com', 'Noreply);
+    $mail->setFrom('dtnl0819@gmail.com');
     $mail->addAddress($email);
     $mail->Subject = "Password Reset";
     $mail->Body = <<<END
